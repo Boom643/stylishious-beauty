@@ -1,0 +1,254 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylishious Beauty Parlor</title>
+
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Navbar -->
+
+<nav class="navbar">
+
+    <div class="logo">
+        Stylishious Beauty Parlor
+    </div>
+
+    <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+</nav>
+
+<!-- Hero Section -->
+
+<section class="hero">
+
+    <div class="overlay">
+
+        <span class="welcome-text">
+            ✨ Welcome to Stylishious
+        </span>
+
+        <h1>
+            Where Beauty
+            Meets Perfection
+        </h1>
+
+        <p>
+            Professional Bridal Makeup, Hair Styling,
+            Skin Care and Beauty Treatments
+        </p>
+
+        <a href="#" class="btn">
+            Book Appointment
+        </a>
+
+    </div>
+
+</section>
+
+<!-- About Section -->
+
+<section class="about">
+
+    <div class="about-image">
+        <img src="{% static 'images/about.jpg' %}" alt="Salon Interior">
+    </div>
+
+    <div class="about-content">
+
+        <h2>About Stylishious Beauty Parlor</h2>
+
+        <p>
+            Welcome to Stylishious Beauty Parlor, your trusted beauty
+            destination in Solapur. We specialize in bridal makeup,
+            skin care, hair styling and professional beauty services.
+        </p>
+
+        <p>
+            Our mission is to help every client feel confident,
+            elegant and beautiful on every special occasion.
+        </p>
+
+        <a href="#" class="btn">
+            Explore Services
+        </a>
+
+    </div>
+
+</section>
+
+<!-- Statistics -->
+
+<section class="stats">
+
+    <div class="stat-card">
+        <h2>900+</h2>
+        <p>Happy Clients</p>
+    </div>
+
+    <div class="stat-card">
+        <h2>4.9★</h2>
+        <p>Google Rating</p>
+    </div>
+
+    <div class="stat-card">
+        <h2>100+</h2>
+        <p>Bridal Makeovers</p>
+    </div>
+
+    <div class="stat-card">
+        <h2>5+</h2>
+        <p>Years Experience</p>
+    </div>
+
+</section>
+
+<!-- Services -->
+
+<section class="services" id="services">
+
+    <h2 class="section-title">Our Premium Services</h2>
+
+    <div class="service-container">
+
+        <div class="service-card">
+            <h3>💄 Bridal Makeup</h3>
+            <p>Elegant bridal makeup designed for your special day.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>💇 Hair Styling</h3>
+            <p>Modern hairstyles for weddings and special events.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>✨ Skin Care</h3>
+            <p>Professional facials and skin rejuvenation treatments.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>💅 Nail Art</h3>
+            <p>Creative nail styling and premium nail care.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>🌸 Threading</h3>
+            <p>Perfect eyebrow shaping and grooming services.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>☀️ Detan Treatment</h3>
+            <p>Restore your natural glow with detan treatments.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Gallery -->
+
+<section class="gallery" id="gallery">
+
+    <h2 class="section-title">Our Gallery</h2>
+
+    <div class="gallery-container">
+
+        <img src="{% static 'images/g1.jpg' %}" alt="">
+        <img src="{% static 'images/g2.jpg' %}" alt="">
+        <img src="{% static 'images/g3.jpg' %}" alt="">
+        <img src="{% static 'images/g4.jpg' %}" alt="">
+        <img src="{% static 'images/g5.jpg' %}" alt="">
+        <img src="{% static 'images/g6.jpg' %}" alt="">
+
+    </div>
+
+</section>
+
+<!-- Testimonials -->
+
+<section class="reviews">
+
+    <h2 class="section-title">Client Reviews</h2>
+
+    <div class="review-container">
+
+        <div class="review-card">
+            ⭐⭐⭐⭐⭐
+            <p>
+                Amazing bridal makeup service and professional staff.
+            </p>
+        </div>
+
+        <div class="review-card">
+            ⭐⭐⭐⭐⭐
+            <p>
+                Beautiful salon and excellent customer experience.
+            </p>
+        </div>
+
+        <div class="review-card">
+            ⭐⭐⭐⭐⭐
+            <p>
+                Highly recommended for bridal and party makeup.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Contact -->
+
+<section class="contact" id="contact">
+
+    <h2 class="section-title">Contact Us</h2>
+
+    <div class="contact-box">
+
+        <p>
+            📍 Railway Line, Behind Gandhi TVS,
+            Solapur, Maharashtra
+        </p>
+
+        <p>
+            📞 WhatsApp Booking Available
+        </p>
+
+        <p>
+            ⭐ 4.9 Rating from 900+ Clients
+        </p>
+
+        <a href="#" class="btn">
+            Book Now
+        </a>
+
+    </div>
+
+</section>
+
+<!-- Footer -->
+
+<footer>
+
+    <p>
+        © 2026 Stylishious Beauty Parlor.
+        All Rights Reserved.
+    </p>
+
+</footer>
+
+</body>
+</html>
